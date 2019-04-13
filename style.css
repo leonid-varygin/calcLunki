@@ -1,0 +1,24 @@
+body {
+    background-color: #009688;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.program {
+    margin: auto;
+}
+
+input {
+    border: 1px solid rgb(140, 129, 129);
+    margin: 8px 0;
+    padding: 10px 10px;
+}
+
+button {
+    margin-top: 30px;
+    border: 1px solid green;
+    background-color: lightgreen;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
