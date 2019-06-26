@@ -9,7 +9,8 @@ window.onload = function () {
         btn = document.querySelector('button'),
         bak = document.querySelector('[name="bak"]'),
         bakPosle = document.querySelector('[name="bak-posle"]'),
-        resBak = document.querySelector('[name="res"]')
+        resBak = document.querySelector('[name="res"]'),
+        maxPlotn = document.querySelector('[name="max-plotn"]')
 
 
     btn.addEventListener('click', function calc() {
@@ -35,7 +36,7 @@ window.onload = function () {
         let plotnostCalcDryGrunt = plotnostWetGrunt.value / perevodVlajnosti
         plotnostDryGrunt.value = plotnostCalcDryGrunt.toFixed(2)
 
-        let kefUpl = plotnostWetGrunt.value / plotnostDryGrunt.value
+        let kefUpl = plotnostWetGrunt.value / parseInt(maxPlotn.value)
         uplotnenie.value = kefUpl.toFixed(2)
 
     })
