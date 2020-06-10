@@ -22,9 +22,3 @@ button {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
 }
-
-input[name="bak"], input[name="bak-posle"] {
-    background-color: #00BCD4;
-}
-
-input[name="vlajnost"], input[name="white-pesok"], input[name="plotnost-wet-grunt"],
