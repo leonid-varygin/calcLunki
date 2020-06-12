@@ -16,7 +16,7 @@ window.onload = function () {
 
         //Расчёт песка, засыпанного в лунку.
 
-        let result = parseInt(bak.value) - (parseInt(bakPosle.value) + 1448)
+        let result = parseInt(bak.value) - (parseInt(bakPosle.value) + 1510)
 
         resBak.value = result
 
@@ -35,7 +35,7 @@ window.onload = function () {
         let plotnostCalcDryGrunt = plotnostWetGrunt.value / perevodVlajnosti
         plotnostDryGrunt.value = plotnostCalcDryGrunt.toFixed(2)
 
-        let kefUpl = plotnostWetGrunt.value / plotnostDryGrunt.value
+        let kefUpl = plotnostDryGrunt.value /plotnostWetGrunt.value
         uplotnenie.value = kefUpl.toFixed(2)
 
     })
